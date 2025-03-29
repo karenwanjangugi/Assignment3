@@ -1,0 +1,123 @@
+.form{
+    
+    width: 80%;
+    border-radius: 40px;
+    padding: 20px 35px;
+    margin: 0 auto;
+ 
+}
+.box .login-image img{
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+
+
+}
+.box{
+    display: flex;
+    margin: 0 auto;
+    border: solid 1px;
+    border-radius: 10px;
+    width: 40%;
+    border-color: grey;
+
+}
+.form .button{
+    display: flex;
+    justify-content: center;
+
+
+
+}
+ .form .button button{
+    border: none;
+    background: none;
+    background-color: blueviolet;
+    color: aliceblue;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+
+
+}
+.form .icon-buttons{
+    display:flex;
+    justify-content: center;
+    border: none;
+
+}
+.form .icon-buttons button{
+    border:solid 0.2px;
+    background-color:white;
+    width: 50%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+    
+}
+.form input{
+    padding: 12px 16px;
+    border-radius: 5px;
+    border: solid 1px;
+    width: 80%;
+    
+}
+
+.form{
+    font-family: "Mona Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 400px;
+}
+#miniheading{
+    color: grey;
+    font-size: small;
+    text-align: center;
+}
+body{
+    min-height: auto;
+    background-color: blueviolet;
+}
+.login-form {
+    color: black ;
+    background: white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+}
+.loginsentence a{
+    color: blueviolet;
+
+}
+
+.button a{
+    color: white;
+}
+.lines{
+    position: relative;
+    margin: 25px auto;
+    text-align: center;
+    
+}
+.lines:before{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 0%;
+    background-color: grey;
+}
+.lines:after{
+    content:" ";
+    display: block;
+    height: 2px;
+    width: 140px;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    right: 0%;
+    background-color: grey;
+}
